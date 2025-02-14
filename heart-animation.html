@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Heart Animation</title>
+    <meta charset="UTF-8">
+    <meta name="Keywords" >
+    <meta name="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      canvas {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        
+        background-color: rgba(0, 0, 0, .2);
+        z-index: 2;
+      }
+      body {
+        position: relative;
+        margin: 0;
+      }
+      .nazar, .viky {
+        color: rgb(226 82 100) !important;
+        z-index: 999;
+        position: absolute;
+        color: white;
+        left: 20px;
+      }
+      .viky {
+        bottom: -200px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1 class="nazar">From: Назар</h1>
+    <h1 class="viky">To: Вікунья😁😘</h1>
+    <canvas id="heart" width="1920" height="947"></canvas>
+
+    <script src="heart-animation.js">
+    </script>
+  </body>
+</html>
